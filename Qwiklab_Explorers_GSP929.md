@@ -7,17 +7,48 @@
 #### This script and guide are provided for educational purposes to help you understand the lab process. Please ensure you understand the steps before using any scripts. Before using the script, I encourage you to open and review it to understand each step.The goal is to help you learn how to complete the labs effectively while following Qwiklabs' terms of service and YouTube's community guidelines.
 ---
 
- - ### Copy & Run the Commands in Cloud Shell Terminal :
+* Download Blob File from [here](https://drive.google.com/file/d/1TFrpJvVBzU_jIQiF5uADRtgKN9OQD6VF/view?usp=sharing)
+
+
+## 1. Create Versions
+
+1. Create Versions v1.
+
+   ##### Display Name: 
+
+   ```
+   Flight booker main v1 chat bot
+   ```
+
+2. Create Versions v1.:
+
+   ##### Display Name: 
+   
+   ```
+   Flight booker main v2 chat bot
+   ```
+
+## 2. Create Environments
+
+1. Create a new environment:
+   ##### Name:
+   ```
+   QA
+   ```
+   ### Version: Select `Flight booker main v1 chat bot`
+
+2. Create another environment:
+   # Name:
+   ```
+   Dev
+   ```
+   ### Version: Select `Flight booker main v2 chat bot`
+
+## 3. Test the Agent in two different environment `(QA & Dev)` :
 
 ```
-curl -LO raw.githubusercontent.com/Titash-shil/Migrate-Existing-Prometheus-Monitoring-Workloads-to-Google-Cloud-GSP1025/refs/heads/main/qwiklab_explorers_gsp1025.sh
-
-sudo chmod +x qwiklab_explorers_gsp1025.sh
-
-./qwiklab_explorers_gsp1025.sh
+i want to book a flight
 ```
----
-
 ## Congratulations ..!!🎉  You completed the lab shortly..😃💯
 
 ## *Well done..!* 👏
